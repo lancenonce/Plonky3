@@ -20,7 +20,7 @@ const P: u32 = (1 << 31) - 1;
 #[derive(Copy, Clone, Default, Serialize, Deserialize)]
 pub struct Mersenne31 {
     /// Not necessarily canonical, but must fit in 31 bits.
-    pub(crate) value: u32,
+    pub value: u32,
 }
 
 impl Mersenne31 {
